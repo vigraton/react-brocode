@@ -24,3 +24,14 @@
 .card .card-text{
   color: rgb(40, 40, 40);
 }
+
+.student{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid rgb(175, 175, 175);
+}
+
+.student p{
+  margin: 0;
+}
