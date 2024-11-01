@@ -35,3 +35,17 @@
 .student p{
   margin: 5px;
 }
+
+.welcome-message{
+  background-color: rgb(79, 0, 238);
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.login-prompt{
+  background: rgb(207, 0, 0);
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
