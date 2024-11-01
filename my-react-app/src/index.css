@@ -49,3 +49,18 @@
   padding: 10px;
   border-radius: 4px;
 }
+
+.list-category{
+  font-size: 2.5em;
+  color: rgb(30, 30, 30);
+}
+
+.list-items li{
+  font-size: 1.8em;
+  color: rgb(60, 60, 60);
+}
+
+.list-items li:hover{
+  color:rgb(155, 155, 155);
+  cursor: pointer;
+}
