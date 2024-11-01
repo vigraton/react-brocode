@@ -26,9 +26,8 @@ function App(){
         <Student name="Vivian" age={19} isStudent={true}/>
         <Student name="Leo" age="15" isStudent={true}/>
         <Student /><br></br>
-        <List items={fruits} category="Fruits"/>
-        <List items={vegetables} category="Vegetables"/>
-
+        {fruits.length > 0 && <List items={fruits} category="Fruits"/>}
+        {vegetables.length > 0 && <List items={vegetables} category="Vegetables"/>}
     </>    
   );
 }
