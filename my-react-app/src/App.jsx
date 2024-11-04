@@ -3,6 +3,8 @@ import Student from './Student.jsx'
 import Button from './Button.jsx'
 import UserGreeting from './UserGreeting.jsx';
 import List from './List.jsx'
+import ClickButton from './ClickButton.jsx';
+import ProfilePicture from './ProfilePicture.jsx';
 
 function App(){
 
@@ -28,6 +30,8 @@ function App(){
         <Student /><br></br>
         {fruits.length > 0 && <List items={fruits} category="Fruits"/>}
         {vegetables.length > 0 && <List items={vegetables} category="Vegetables"/>}
+        <ClickButton /><br></br><br></br>
+        <ProfilePicture />
     </>    
   );
 }
