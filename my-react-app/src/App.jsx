@@ -6,6 +6,7 @@ import List from './List.jsx'
 import ClickButton from './ClickButton.jsx';
 import ProfilePicture from './ProfilePicture.jsx';
 import MyComponent from './MyComponent.jsx';
+import MyComponent2 from './MyComponent2.jsx'
 
 function App(){
 
@@ -33,7 +34,8 @@ function App(){
         {vegetables.length > 0 && <List items={vegetables} category="Vegetables"/>}
         <ClickButton /><br></br><br></br>
         <ProfilePicture /><br></br><br></br>
-        <MyComponent />
+        <MyComponent /><br></br>
+        <MyComponent2 />
     </>    
   );
 }
