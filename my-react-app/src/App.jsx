@@ -7,6 +7,7 @@ import ClickButton from './ClickButton.jsx';
 import ProfilePicture from './ProfilePicture.jsx';
 import MyComponent from './MyComponent.jsx';
 import MyComponent2 from './MyComponent2.jsx'
+import FunctionUpDate from './FunctionUpDate.jsx';
 
 function App(){
 
@@ -35,7 +36,8 @@ function App(){
         <ClickButton /><br></br><br></br>
         <ProfilePicture /><br></br><br></br>
         <MyComponent /><br></br>
-        <MyComponent2 />
+        <MyComponent2 /><br></br>
+        <FunctionUpDate />
     </>    
   );
 }
