@@ -1,13 +1,14 @@
-import Card from './Card.jsx';
-import Student from './Student.jsx'
-import Button from './Button.jsx'
-import UserGreeting from './UserGreeting.jsx';
-import List from './List.jsx'
-import ClickButton from './ClickButton.jsx';
-import ProfilePicture from './ProfilePicture.jsx';
-import MyComponent from './MyComponent.jsx';
-import MyComponent2 from './MyComponent2.jsx'
-import FunctionUpDate from './FunctionUpDate.jsx';
+//import Card from './Card.jsx';
+//import Student from './Student.jsx'
+//import Button from './Button.jsx'
+//import UserGreeting from './UserGreeting.jsx';
+//import List from './List.jsx'
+//import ClickButton from './ClickButton.jsx';
+//import ProfilePicture from './ProfilePicture.jsx';
+//import MyComponent from './MyComponent.jsx';
+//import MyComponent2 from './MyComponent2.jsx'
+//import FunctionUpDate from './FunctionUpDate.jsx';
+import MyObj from './MyObj'
 
 function App(){
 
@@ -25,11 +26,11 @@ function App(){
 
   return(
     <>
-        <UserGreeting isLoggedIn={true} username="Vivian"/>
+        {/*<UserGreeting isLoggedIn={true} username="Vivian"/>
         <Card /><br></br>
         <Button /><br></br><br></br>
         <Student name="Vivian" age={19} isStudent={true}/>
-        <Student name="Leo" age="15" isStudent={true}/>
+        <Student name="Leo" age={15} isStudent={true}/>
         <Student /><br></br>
         {fruits.length > 0 && <List items={fruits} category="Fruits"/>}
         {vegetables.length > 0 && <List items={vegetables} category="Vegetables"/>}
@@ -37,7 +38,8 @@ function App(){
         <ProfilePicture /><br></br><br></br>
         <MyComponent /><br></br>
         <MyComponent2 /><br></br>
-        <FunctionUpDate />
+        <FunctionUpDate /><br></br>*/}
+        <MyObj />
     </>    
   );
 }
