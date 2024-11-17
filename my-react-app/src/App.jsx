@@ -9,6 +9,7 @@
 //import MyComponent2 from './MyComponent2.jsx'
 //import FunctionUpDate from './FunctionUpDate.jsx';
 import MyObj from './MyObj'
+import UpdateArrayinState from './UpdateArrayinState';
 
 function App(){
 
@@ -39,7 +40,8 @@ function App(){
         <MyComponent /><br></br>
         <MyComponent2 /><br></br>
         <FunctionUpDate /><br></br>*/}
-        <MyObj />
+        <MyObj /><br></br>
+        <UpdateArrayinState />
     </>    
   );
 }
