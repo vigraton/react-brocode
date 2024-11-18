@@ -10,6 +10,7 @@
 //import FunctionUpDate from './FunctionUpDate.jsx';
 import MyObj from './MyObj'
 import UpdateArrayinState from './UpdateArrayinState';
+import UpdateArrayinObj from './UpdateArrayinObj';
 
 function App(){
 
@@ -42,6 +43,7 @@ function App(){
         <FunctionUpDate /><br></br>*/}
         <MyObj /><br></br>
         <UpdateArrayinState />
+        <UpdateArrayinObj />
     </>    
   );
 }
