@@ -11,6 +11,7 @@
 import MyObj from './MyObj'
 import UpdateArrayinState from './UpdateArrayinState';
 import UpdateArrayinObj from './UpdateArrayinObj';
+import UseEffect from './UseEffect';
 
 function App(){
 
@@ -43,7 +44,8 @@ function App(){
         <FunctionUpDate /><br></br>*/}
         <MyObj /><br></br>
         <UpdateArrayinState />
-        <UpdateArrayinObj />
+        <UpdateArrayinObj /><br></br>
+        <UseEffect />
     </>    
   );
 }
