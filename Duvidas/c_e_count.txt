@@ -28,18 +28,18 @@ function UseEffect(){
 export default UseEffect;
 -------------------------------------------------------------
 
-Eu tive uma dúvida, 
+Eu tive uma dúvida...
 
-# como o JavaScript "sabe" que `c` e `count` são a mesma coisa?
+como o JavaScript "sabe" que `c` e `count` são a mesma coisa?
 
 Isso ocorre por cause de como o React e o useState funcionam.
 
-1. ###`count` no estado:
+1. `count` no estado:
     Quando você usa `useState`, o React cria internamente uma referência
     para o estado `count`. Essa referência é atualizada automaticamente
     sempre que você chama `setCount`.
 
-2. ###`setCount` e o callback:
+2. `setCount` e o callback:
     Quando você passa uma função para `setCount` (como no caso de `setCount(c => c + 1)`),
     o React chama essa função com o valor atual de `count` como argumento(`c` nesse caso).
 
@@ -50,7 +50,7 @@ Isso ocorre por cause de como o React e o useState funcionam.
     - Ou seja, `c` é apenas o valor atual de `count` naquele momento em que
     a função é executada.
 
-3. ### Como `count` e `c` estão relacionados:
+3. Como `count` e `c` estão relacionados:
     - `count` é valor do estado atual (que você vê no componente).
 
     - `c` é um snapshot (uma cópia) do valor atual de `count` que o React
@@ -61,13 +61,13 @@ Isso ocorre por cause de como o React e o useState funcionam.
     Aqui, `c` recebe o valor `5`, e o retorno da função (c + 1, ou seja, 6) se
     torna o novo valor de `count`.
 
-4. ### Por que usar a callback no `setCount`:
+4. Por que usar a callback no `setCount`:
     A função de callback (c => c + 1) é importante, especialmente em cenários
     onde o estado pode ser atualizado várias vezes em sequência. Se você usasse
     diretamente `setCount(count + 1)`, poderia acabar utilizando um valor
     desatualizado de `count`.
 
-### Resumo Prático:
+Resumo Prático:
     O React gerencia o estado internamente, e quando você usa a função de atualização
     (setCount), ele passa automaticamente o valor mais recente do estado como argumento
     para o callback (no caso, `c`). É assim que o JavaScript "sabe" que `count` e `c` 
