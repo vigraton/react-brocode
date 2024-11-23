@@ -13,6 +13,7 @@ import UpdateArrayinState from './UpdateArrayinState';
 import UpdateArrayinObj from './UpdateArrayinObj';
 import UseEffect from './UseEffect';
 import ComponentA from './ComponentA';
+import UseRef from './UseRef';
 
 function App(){
 
@@ -47,7 +48,8 @@ function App(){
         <UpdateArrayinState />
         <UpdateArrayinObj /><br></br>
         <UseEffect /><br></br>
-        <ComponentA />
+        <ComponentA /><br></br><br></br>
+        <UseRef />
     </>    
   );
 }
