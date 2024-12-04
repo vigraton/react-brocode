@@ -1,19 +1,22 @@
-//import Card from './Card.jsx';
-//import Student from './Student.jsx'
-//import Button from './Button.jsx'
-//import UserGreeting from './UserGreeting.jsx';
-//import List from './List.jsx'
-//import ClickButton from './ClickButton.jsx';
-//import ProfilePicture from './ProfilePicture.jsx';
-//import MyComponent from './MyComponent.jsx';
-//import MyComponent2 from './MyComponent2.jsx'
-//import FunctionUpDate from './FunctionUpDate.jsx';
-import MyObj from './MyObj'
-import UpdateArrayinState from './UpdateArrayinState';
-import UpdateArrayinObj from './UpdateArrayinObj';
-import UseEffect from './UseEffect';
-import ComponentA from './ComponentA';
-import UseRef from './UseRef';
+import Card from './components/Card.jsx';
+import Student from './components/Student.jsx';
+import Button from './components/Button.jsx';
+import UserGreeting from './components/UserGreeting.jsx';
+import List from './components/List.jsx';
+import ClickButton from './components/ClickButton.jsx';
+import ProfilePicture from './components/ProfilePicture.jsx';
+import MyComponent from './components/MyComponent.jsx';
+import MyComponent2 from './components/MyComponent2.jsx'
+import FunctionUpDate from './components/FunctionUpDate.jsx';
+import MyObj from './components/MyObj.jsx'
+import UpdateArrayinState from './components/UpdateArrayinState.jsx';
+import UpdateArrayinObj from './components/UpdateArrayinObj.jsx';
+import UseEffect from './components/UseEffect.jsx';
+import ComponentA from './components/ComponentA.jsx';
+import UseRef from './components/UseRef.jsx';
+
+import React from 'react';
+import Routes from './routes/routes.js';
 
 function App(){
 
@@ -44,6 +47,9 @@ function App(){
         <MyComponent /><br></br>
         <MyComponent2 /><br></br>
         <FunctionUpDate /><br></br>*/}
+        <h2>Projetos:</h2><br></br>
+        <Link to="./routes/ColorPicker.jsx">Color Picker</Link>
+        <Routes/>
         <MyObj /><br></br>
         <UpdateArrayinState />
         <UpdateArrayinObj /><br></br>

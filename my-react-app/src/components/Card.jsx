@@ -1,4 +1,4 @@
-import profilePic from './assets/tired-jake.jpg'
+import profilePic from '../assets/tired-jake.jpg';
 
 function Card(){
     return(
