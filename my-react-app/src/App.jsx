@@ -1,3 +1,7 @@
+import { Link } from 'react-router-dom';
+import React from 'react';
+import Routes from './rotas/routes.js';
+
 import Card from './components/Card.jsx';
 import Student from './components/Student.jsx';
 import Button from './components/Button.jsx';
@@ -14,9 +18,7 @@ import UpdateArrayinObj from './components/UpdateArrayinObj.jsx';
 import UseEffect from './components/UseEffect.jsx';
 import ComponentA from './components/ComponentA.jsx';
 import UseRef from './components/UseRef.jsx';
-
-import React from 'react';
-import Routes from './routes/routes.js';
+import ColorPicker from './rotas/ColorPicker.js';
 
 function App(){
 
@@ -47,9 +49,13 @@ function App(){
         <MyComponent /><br></br>
         <MyComponent2 /><br></br>
         <FunctionUpDate /><br></br>*/}
+        
         <h2>Projetos:</h2><br></br>
-        <Link to="./routes/ColorPicker.jsx">Color Picker</Link>
+        <li>
+          <Link to="/color-picker">Color Picker</Link>
+        </li>
         <Routes/>
+
         <MyObj /><br></br>
         <UpdateArrayinState />
         <UpdateArrayinObj /><br></br>
