@@ -36,6 +36,8 @@ function App(){
 
   return(
     <>
+        <AppRoutes/>
+
         {/*<UserGreeting isLoggedIn={true} username="Vivian"/>
         <Card /><br></br>
         <Button /><br></br><br></br>
@@ -50,11 +52,9 @@ function App(){
         <MyComponent2 /><br></br>
         <FunctionUpDate /><br></br>*/}
         
-        {/* <h2>Projetos:</h2><br></br>
-        <li>
-          <Link to="/color-picker">Color Picker</Link>
-        </li> */}
-        <AppRoutes/>
+        <h3>Projetos:</h3><br></br>
+        <ColorPicker />
+
 
         {/* <MyObj /><br></br>
         <UpdateArrayinState />
