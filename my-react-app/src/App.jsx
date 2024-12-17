@@ -18,7 +18,7 @@ import UpdateArrayinObj from './components/UpdateArrayinObj.jsx';
 import UseEffect from './components/UseEffect.jsx';
 import ComponentA from './components/ComponentA.jsx';
 import UseRef from './components/UseRef.jsx';
-import ColorPicker from './pages/color-picker/ColorPicker.jsx';
+
 
 function App(){
 
@@ -37,6 +37,8 @@ function App(){
   return(
     <>
         <AppRoutes/>
+        <h3>Projetos:</h3><br></br>
+        <Link to="color-picker"></Link>
 
         {/*<UserGreeting isLoggedIn={true} username="Vivian"/>
         <Card /><br></br>
@@ -51,11 +53,6 @@ function App(){
         <MyComponent /><br></br>
         <MyComponent2 /><br></br>
         <FunctionUpDate /><br></br>*/}
-        
-        <h3>Projetos:</h3><br></br>
-        <ColorPicker />
-
-
         {/* <MyObj /><br></br>
         <UpdateArrayinState />
         <UpdateArrayinObj /><br></br>
