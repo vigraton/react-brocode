@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { BrowserRouter, Link } from 'react-router-dom';
 import React from 'react';
 import AppRoutes from './rotas/routes.jsx';
 
@@ -37,8 +37,9 @@ function App(){
   return(
     <>
         <AppRoutes/>
-        <h3>Projetos:</h3><br></br>
-        <Link to="color-picker"></Link>
+        <BrowserRouter>
+          <Link to="color-picker"></Link>
+        </BrowserRouter>
 
         {/*<UserGreeting isLoggedIn={true} username="Vivian"/>
         <Card /><br></br>

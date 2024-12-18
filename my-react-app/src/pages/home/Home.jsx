@@ -5,6 +5,7 @@ function Home() {
     return(
         <div>
             <h1>Home</h1>
+            <h3>Projetos:</h3>
             <Link to="/color-picker">Color Picker</Link>
         </div>
     )

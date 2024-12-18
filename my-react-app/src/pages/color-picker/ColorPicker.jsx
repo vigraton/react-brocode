@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 function ColorPicker(){
     
@@ -12,7 +12,7 @@ function ColorPicker(){
     return(
         <div className="color-picker-container">
             <Link to="/">Retornar a página inicial</Link><br></br>
-            <h2>Color Picker</h2><br></br>
+            <h2>Color Picker</h2>
             <div className="color-display" style={{backgroundColor: color}}>
                 <p>Selected color: {color}</p>
             </div>
