@@ -7,6 +7,7 @@ function Home() {
             <h1>Home</h1>
             <h3>Projetos:</h3>
             <Link to="/color-picker">Color Picker</Link>
+            <Link to="/to-do-list">To-do List</Link>
         </div>
     )
 }

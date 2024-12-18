@@ -39,6 +39,7 @@ function App(){
         <AppRoutes/>
         <BrowserRouter>
           <Link to="color-picker"></Link>
+          <Link to="to-do-list"></Link>
         </BrowserRouter>
 
         {/*<UserGreeting isLoggedIn={true} username="Vivian"/>
