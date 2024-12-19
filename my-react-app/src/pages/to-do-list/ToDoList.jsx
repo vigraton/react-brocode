@@ -61,7 +61,7 @@ function ToDoList(){
 
             <ol>
                 {tasks.map((task, index) =>
-                    <li key={index}>
+                    <li className="task-list" key={index}>
                         <span className="text">{task}</span>
                         <button
                             className="delete-button"
