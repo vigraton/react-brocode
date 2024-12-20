@@ -40,6 +40,7 @@ function App(){
         <BrowserRouter>
           <Link to="color-picker"></Link>
           <Link to="to-do-list"></Link>
+          <Link to="digital-clock"></Link>
         </BrowserRouter>
 
         {/*<UserGreeting isLoggedIn={true} username="Vivian"/>

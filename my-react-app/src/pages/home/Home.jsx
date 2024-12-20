@@ -14,9 +14,11 @@ function Home() {
                     <li id="link-2">
                         <Link to="/to-do-list">To-do List</Link>
                     </li>
+                    <li id="link-3">
+                        <Link to="/digital-clock">Digital Clock</Link>
+                    </li>
                 </ul>
-            </nav>
-            
+            </nav>            
         </div>
     )
 }
