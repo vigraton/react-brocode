@@ -17,6 +17,9 @@ function Home() {
                     <li id="link-3">
                         <Link to="/digital-clock">Digital Clock</Link>
                     </li>
+                    <li id="link-4">
+                        <Link to="/stopwatch">StopWatch</Link>
+                    </li>
                 </ul>
             </nav>            
         </div>
